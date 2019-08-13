@@ -1,0 +1,125 @@
+@import "//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css";
+@import "http://fonts.googleapis.com/css?family=Roboto:400,500";
+
+body{
+  padding-top: 70px;
+}
+ .navbar-brand {
+   height: 60px;
+   line-height: 50px;
+ }
+/*
+ .carousel-inner > .item {min-height: 600px; background-size: cover;}
+*/
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  margin-bottom: 1rem;
+
+
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+  height: 50rem;
+  background-color: #777;
+}
+.carousel-item > img {
+  position: absolute;
+  /*top: 0;
+  left: 0;*/
+  min-width: 100%;
+  /*height: 32rem;
+*/
+  background-size: cover;
+  background-position: center;
+}
+/*.carousel-inner > .item{
+  min-height: 600px;
+  background-size: cover;
+  background-position: center;
+}*/
+
+.big-padding {
+  padding-top: 50px;
+
+}
+
+
+#bg3{background-color:#007bff;}
+#bg3 .foot{padding-top: 10px;}
+footer{background-color:#007bff;
+      color:white;
+      padding-bottom:10px;}
+/*#foot1,#foot2,#foot3,#foot4 a{color:navy; padding-left: 5px;}
+/*
+#foot1 a:hover{
+  text-decoration:none;
+  color:#FFC831;
+}
+
+#foot2 a:hover{
+  text-decoration: none;
+  color:#FFC831;
+}
+*/
+h5#firstchild{padding-top:15px;}
+
+/*#foot1,#foot2,#foot3,#foot4 h3{color:#FFC831;}
+*/
+#foot1{padding-top: 20px; padding-right: 20px;color: navy;}
+#foot2,#foot3 {padding-top: 5px;line-height: 1.3;color: navy;}
+#foot4 {padding-left: 25px; color: navy;}
+ul.social-network {
+  list-style: none;
+  display: inline;
+  margin-left:0 !important;
+  padding: 0;
+
+}
+ul.social-network li {
+  display: inline;
+  margin: 0 5px;
+}
+
+.social-network a.icoRss {
+  background-color: #F56505;
+    color:#fff;
+}
+.social-network a.icoFacebook {
+  background-color:#3B5998;
+    color:#fff;
+}
+.social-network a.icoInstagram{
+  background-color:#33ccff; color:#fff;
+}
+
+.social-circle li a {
+  display:inline-block;
+  position:relative;
+  margin:0 auto 0 auto;
+  -moz-border-radius:50%;
+  -webkit-border-radius:50%;
+  border-radius:50%;
+  text-align:center;
+  width: 50px;
+  height: 50px;
+  font-size:20px;
+
+}
+.social-circle li i {
+  margin:0;
+  line-height:50px;
+  text-align: center;
+}
+.fa {
+  text-decoration: none;
+  border-radius: 50%;
+}
